@@ -1,0 +1,24 @@
+# This plugin was created by kai_1029. It is fine to repost this plugin elsewhere, just please
+# credit me! You can also see this plugin on my github: https://github.com/klokailo/ProjectileKnockback/ 
+#
+# Functionalities:
+enabled: true
+snowball: true
+egg: true
+enderpearl: true
+#
+# Messages:
+no-permission: &c You don't have permission to do this!
+toggle-module: &a Toggled $module knockback $on-off. You can also toggle $module knockback through the config.yml file.
+toggle-plugin: &a Toggled this plugin $on-off. You can also toggle the plugin through the config.yml file.
+toggle-cross-world: &a Toggled cross world support $on-off. You can also toggle cross world support through the config.yml file.
+add-remove-world: &a Your world has been $added-removed from the enabled worlds list. You can also edit this in the config.yml file.
+unknown-action: &c Uknown action. Type /pkb help for help.
+#
+# Other options:
+# This allows you to have the plugin enabled only for a certain list of worlds.
+# Set this to false if you want to only enable it in certain worlds.
+cross-world: true
+# If you have set the option above to false, then select the worlds you would like here:
+worlds-enabled: []
+updater: true
